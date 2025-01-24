@@ -1,2 +1,3 @@
-# lofty
-A simplistic and quirky application-layer-centered opinionated framework
+# Lofty
+
+An opinionated, simplistic, quirky and application-layer centered typescript framework
