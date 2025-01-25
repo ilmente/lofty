@@ -1,7 +1,7 @@
 # project
-/node_modules
-/.rollup.cache
-/dist
+node_modules
+.rollup.cache
+dist
 
 # Logs
 logs
@@ -24,3 +24,12 @@ lerna-debug.log*
 
 # git
 !.gitkeep
+
+# yarn
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

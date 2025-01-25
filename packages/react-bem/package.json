@@ -1,0 +1,20 @@
+{
+  "name": "@lofty/react-bem",
+  "version": "1.0.0",
+  "description": "React + BEM for CSS",
+  "author": "Alessandro Bellini - ilmente",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/react-bem.cjs",
+  "scripts": {
+    "bem:build": "rollup --config rollup.config.mjs --bundleConfigAsCjs"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "react": "^19",
+    "rollup": "*"
+  },
+  "peerDependencies": {
+    "react": "^18 || ^19"
+  }
+}

@@ -1,3 +1,3 @@
 # Lofty
 
-An opinionated, simplistic, quirky and application-layer centered typescript framework
+A collaction of utilities for fast and simple development, ideal for POCs and small applications.

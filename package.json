@@ -1,32 +1,15 @@
 {
-  "name": "@ilmente/lofty",
-  "version": "0.1.0",
-  "description": "An opinionated, simplistic, quirky and application-layer centered typescript framework",
-  "author": "Alessandro Bellini - ilmente",
-  "license": "MIT",
-  "type": "module",
-  "main": "dist/lofty.cjs",
-  "scripts": {
-    "build": "rollup --config rollup.config.mjs --bundleConfigAsCjs",
-    "dev": "dotenvx run -- npm run build --watch",
-    "format": "prettier --write ."
-  },
-  "dependencies": {
-    "body-parser": "^1.20.3",
-    "consola": "^3.2.3",
-    "express": "^4.19.2",
-    "node-match-path": "^0.6.3",
-    "qs": "^6.13.0",
-    "rambda": "^9.3.0"
-  },
+  "private": true,
+  "name": "@lofty/root",
+  "packageManager": "yarn@4.6.0",
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "@dotenvx/dotenvx": "^1.5.0",
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^12.1.1",
-    "@types/body-parser": "^1",
-    "@types/express": "^4.17.17",
     "@types/node": "^20.3.1",
-    "@types/qs": "^6",
     "prettier": "^3.2.0",
     "rollup": "^4.24.0",
     "tslib": "^2.8.0",

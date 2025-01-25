@@ -8,9 +8,8 @@ const isProduction = Boolean(process.env.PRODUCTION);
 function getPlugins() {
   const plugins = [
     typescript({
-      tsconfig: './tsconfig.json',
+      tsconfig: join(__dirname, 'tsconfig.json'),
       outputToFilesystem: true,
-      include: ['src/**/*', 'example/**/*'],
     }),
   ];
 
